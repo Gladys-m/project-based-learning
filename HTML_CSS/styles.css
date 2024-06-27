@@ -20,3 +20,10 @@ body {
     margin: 0.6rem 0 0.2rem 0;
     display: block;
 }
+
+.loading__anim {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    border: 5px solid rgb(189, 189, 189, 0.25);
+}
