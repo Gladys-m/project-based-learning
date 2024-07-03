@@ -132,3 +132,25 @@ html {
     max-width: 15em;
     overflow: hidden;
   }
+
+  .calculator_display {
+    background-color: #222222;
+    color: #fff;
+    font-size: 1.714285714em;
+    padding: 0.5em 0.75em;
+    text-align: right;
+  }
+
+  .calculator_keys { 
+    background-color: #999;
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .calculator_keys > * {
+    background-color: #fff;
+    padding: 0.5em 1.25em;
+    position: relative;
+    text-align: center;
+  }
