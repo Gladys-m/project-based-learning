@@ -168,3 +168,7 @@ html {
     top: 0;
     z-index: 1;
   }
+
+  .key_operator {
+    background-color: #dddddd;
+  }
