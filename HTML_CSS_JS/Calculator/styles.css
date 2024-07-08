@@ -157,7 +157,7 @@ html {
 
   .calculator_keys > *:active::before,
   .calculator_keys > .is-depressed::before {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.445);
     bottom: 0;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5) inset;
     content: "";
@@ -171,4 +171,10 @@ html {
 
   .key_operator {
     background-color: #dddddd;
+  }
+
+  .key--equal {
+    background-image: linear-gradient(to bottom, #fe886a, #ff7033);
+    grid-column: 4;
+    grid-row: 2 / span 4;
   }
