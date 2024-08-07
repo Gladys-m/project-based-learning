@@ -20,17 +20,20 @@ keys.addEventListener("click", (e) => {
             }
         }
 
+        if (action === 'decimal') {
+            if (!displayedNum.includes('.')) {
+                display.textContent = displayedNum + '.';
+            }
+        }
+
+        if (action === 'clear') {
+            display.textContent = '0'
+        }
+
         if (action === 'add' || action === 'subtract' || action === 'multiply' || action === 'divide') {
             console.log("Key-operator")
         }
 
-        if (action === 'decimal') {
-            console.log("Decimal key")
-        }
-
-        if (action === 'clear') {
-            console.log("Clear key")
-        }
 
         if (action === 'calculate') {
             console.log("Equals key")
